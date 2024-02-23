@@ -1,0 +1,110 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image:url(./image/geometridashbg.jpg);
+    color: aquamarine;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    padding-top: 3rem;
+    gap: 1rem;
+    ;
+}
+
+.photo {
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.link1 {
+    display: flex;
+    font-size:30px ;
+    background-color: red;
+    padding: 1rem;
+    border-radius: 20px;
+    width :80%;
+    max-width: 50rem;
+    justify-content :space-between;
+    text-decoration: none;
+    color: aqua;
+}
+.link1:hover {
+    border: 1px solid white;
+}
+
+.link2 {
+    display: flex;
+    font-size:30px ;
+    background-color: blue;
+    padding: 1rem;
+    border-radius: 20px;
+    width :80%;
+    max-width: 50rem;
+    justify-content :space-between;
+    text-decoration: none;
+    color: aqua;
+}
+.link2:hover {
+    border: 1px solid white;
+}
+
+.link3 {
+    display: flex;
+    font-size:30px ;
+    background-color: brown;
+    padding: 1rem;
+    border-radius: 20px;
+    width :80%;
+    max-width: 50rem;
+    justify-content :space-between;
+    text-decoration: none;
+    color: aqua;
+}
+.link3:hover {
+    border: 1px solid white;
+}
+
+.link4 {
+    display: flex;
+    font-size:30px ;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 20px;
+    width :80%;
+    max-width: 50rem;
+    justify-content :space-between;
+    text-decoration: none;
+    color: aqua;
+}
+.link4:hover {
+    border: 1px solid white;
+}
+
+.icon1 {
+    float: left;
+    width: 2rem ;
+    border-radius: 50% ;
+}
+
+.icon2 {
+    float: left;
+    width: 2rem ;
+    border-radius: 50%;
+}
+
+.icon3 {
+    float: left;
+    width: 2rem ;
+    border-radius: 50%;
+}
+
+.icon4 {
+    float: left;
+    width: 2rem ;
+    border-radius: 50%;
+}
